@@ -3,7 +3,7 @@ clear
 clf
 close all
 addpath('../src/');
-load('initialn100.mat');
+load('initialn220.mat');
 y=y_noisy;
 [n, p] = size(A);
 format shortG
